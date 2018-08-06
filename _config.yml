@@ -1,4 +1,4 @@
-remote_theme: joshhills/dsm-portfolio-theme
+remote_theme: joshhills/dsm-portfolio-theme@remove-plugins-test
 
 notebook_base_path: /assets/notebooks/
 
