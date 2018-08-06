@@ -1,0 +1,7 @@
+/***
+ * This file imports all partials required by the site.
+ * The design philosphy employed is 'atomic design'.
+ *
+ * Jekyll does not natively support 'globbing', so paths
+ * to new files must be specified manually.
+ */
