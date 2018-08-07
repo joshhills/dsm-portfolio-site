@@ -1,5 +1,7 @@
 notebook_base_path: /assets/notebooks/
 
+baseurl: /dsm-portfolio-site
+
 include:
 - _pages
 
