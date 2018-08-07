@@ -5,3 +5,5 @@
  * Jekyll does not natively support 'globbing', so paths
  * to new files must be specified manually.
  */
+p {
+  color: red; }

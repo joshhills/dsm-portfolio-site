@@ -1,6 +1,10 @@
-remote_theme: joshhills/dsm-portfolio-theme@remove-plugins-test
-
 notebook_base_path: /assets/notebooks/
 
 include:
 - _pages
+
+plugins:
+- jekyll-remote-theme
+- jekyll-jupyter-notebook
+
+remote_theme: joshhills/dsm-portfolio-theme
