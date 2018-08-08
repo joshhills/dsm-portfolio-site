@@ -6,5 +6,6 @@ gem 'jekyll-jupyter-notebook'
 gem 'dsm-portfolio-theme', :git => 'https://github.com/joshhills/dsm-portfolio-theme'
 
 group :jekyll_plugins do
+    gem "dsm-portfolio-plugin"
     gem "jekyll-data"
 end

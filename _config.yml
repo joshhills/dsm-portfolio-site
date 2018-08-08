@@ -9,6 +9,7 @@ plugins:
 - jekyll-remote-theme
 - jekyll-data
 - jekyll-jupyter-notebook
+- dsm-portfolio-plugin
 
 theme: dsm-portfolio-theme
 remote_theme: joshhills/dsm-portfolio-theme

@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/joshhills/dsm-portfolio-theme
-  revision: f1adecf4193209c93a1e7b6057700d6a22d68284
+  revision: b6990d07c53ba2447a0c37dd86260e4b94d445ad
   specs:
-    dsm-portfolio-theme (0.1.3)
+    dsm-portfolio-theme (0.1.4)
       jekyll (~> 3.8)
       jekyll-jupyter-notebook (~> 0.0.4)
 
@@ -13,6 +13,8 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
+    dsm-portfolio-plugin (0.0.1)
+      jekyll (~> 3.8)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -73,6 +75,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dsm-portfolio-plugin
   dsm-portfolio-theme!
   jekyll (~> 3.8.3)
   jekyll-data
