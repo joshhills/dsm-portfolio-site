@@ -1,9 +1,10 @@
 GIT
-  remote: https://github.com/joshhills/jekyll-jupyter-notebook
-  revision: 320a4f50d7a30ff196af4adcf94b875519341ad5
+  remote: https://github.com/joshhills/dsm-portfolio-theme
+  revision: f1adecf4193209c93a1e7b6057700d6a22d68284
   specs:
-    jekyll-jupyter-notebook (0.0.5)
-      jekyll
+    dsm-portfolio-theme (0.1.3)
+      jekyll (~> 3.8)
+      jekyll-jupyter-notebook (~> 0.0.4)
 
 GEM
   remote: https://rubygems.org/
@@ -34,6 +35,10 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+    jekyll-data (1.0.0)
+      jekyll (~> 3.3)
+    jekyll-jupyter-notebook (0.0.4)
+      jekyll
     jekyll-remote-theme (0.3.1)
       jekyll (~> 3.5)
       rubyzip (>= 1.2.1, < 3.0)
@@ -68,8 +73,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dsm-portfolio-theme!
   jekyll (~> 3.8.3)
-  jekyll-jupyter-notebook!
+  jekyll-data
+  jekyll-jupyter-notebook
   jekyll-remote-theme
 
 BUNDLED WITH

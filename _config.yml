@@ -7,6 +7,8 @@ include:
 
 plugins:
 - jekyll-remote-theme
+- jekyll-data
 - jekyll-jupyter-notebook
 
+theme: dsm-portfolio-theme
 remote_theme: joshhills/dsm-portfolio-theme
